@@ -13,7 +13,7 @@ layer_dim = [1, 100, 100, 1]
 # add activation functions name here. 
 # input layer activation function is None
 activations = [None, 'tanh', 'tanh', 'identity']
-#assert len(layer_dim) ==  len(activations), "layer dim or activation is missing.."
+assert len(layer_dim) ==  len(activations), "layer dim or activation is missing.."
 
 # hyper parameters of neural network
 learning_rate = 1e-3
